@@ -1,0 +1,27 @@
+# Webhook Dekódoló Konfiguráció
+
+app:
+  name: "Itroublve Decryptor"
+  version: "1.0.0"
+  description: "Itroublve Decryptor"
+  author: "@dominik"
+  
+server:
+  port: 3000
+  host: "localhost"
+  
+encryption:
+  algorithm: "AES-CBC"
+  key: "5869b35fb38774f665eb96e76f4d1683"
+  iv: "713f379769ebc8a341f3e52de2791721"
+  
+ui:
+  theme: "dark"
+  primary_color: "#7c3aed"
+  secondary_color: "#10b981"
+  background: "#0a0e27"
+  
+features:
+  decrypt: true
+  copy_to_clipboard: true
+  clear_fields: true
